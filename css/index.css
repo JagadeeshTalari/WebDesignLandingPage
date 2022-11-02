@@ -139,3 +139,160 @@ img[alt="intro-img"] {
   top: 50px;
   right: 150px;
 }
+
+@media screen and (max-width:1500px) {
+
+  body {
+    background: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -3em;
+    background-position-x: 33.5em;
+    background-size: contain;
+  }
+  
+  /*<!-- nav-bar section -->*/
+
+  nav>img{
+    height: 60px;
+  }
+
+  .nav-items { 
+    font-size: 22px; 
+  }
+
+  .signin-btn {
+    font-size: 15px;
+    padding: 0.3rem 1.1rem;
+  }
+
+  /* <!-- content section --> */
+  .content-section {
+   justify-content: space-between;
+  }
+
+  /* content left section */
+
+  .left-section {
+    height: 45vh;
+    width: 30vw;
+    margin-top: 15vh;
+  }
+
+  .left-section > h1 {
+    font-size: 70px;
+  }
+  
+  .left-section > h4 {  
+    font-size: 18px;
+  }
+  
+  .learn-more-btn {
+    font-size: 22px;
+  }
+
+  /* content right section */
+
+  .imgs-div {
+    overflow-x: visible;
+    height: 87vh;
+    width: 60vw;
+    position: relative;
+    right: 0px;
+    left: 180px;
+  }
+
+  .vector-dot {
+    position: relative;
+    bottom: 9vh;
+    left: -20.5vw;
+  }
+
+  .vector-img {
+    position: relative;
+    bottom: 0vh;
+    left: -17vw;
+  }
+  /* main image */
+  img[alt="intro-img"] {
+    height: 70vh;
+    position: relative;
+    top: 3vh;
+    right: 28vw;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+
+  body {
+    background-position-y: -5em;
+    background-position-x: 33em;
+  }
+
+  /*<!-- nav-bar section -->*/
+
+  nav>img{
+    height: 60px;
+  }
+
+  .nav-items { 
+    font-size: 22px; 
+  }
+
+  .signin-btn {
+    font-size: 15px;
+    padding: 0.3rem 1.1rem;
+  }
+
+
+  /* content left section */
+
+  .left-section {
+    height: 45vh;
+    width: 45vw;
+    margin-top: 15vh;
+  }
+
+  .left-section > h1 {
+    font-size: 40px;
+  }
+  
+  .left-section > h4 {  
+    width: 35vw;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .learn-more-btn {
+    font-size: 16px;
+    padding: 0.85rem 1.75rem;
+  }
+
+
+    /* content right section */
+
+  .vector-dot {
+    height: 1.7vh;
+    position: relative;
+    bottom: 14.5vh;
+    left: -18vw;
+  }
+
+  .vector-img {
+    height: 8vh;
+    position: relative;
+    bottom: 8vh;
+    left: -16vw;
+  }
+
+  img[alt="intro-img"] {
+    height: 68vh;
+    position: relative;
+    top: 0px;
+    right: 290px;
+  }
+
+
+  
+}
